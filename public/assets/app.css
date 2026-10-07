@@ -124,6 +124,13 @@ h1 {
   cursor: pointer;
 }
 
+/* Enlaces con aspecto de botón (Editar, Cancelar) */
+a.button {
+  display: inline-block;
+  text-decoration: none;
+  line-height: inherit;
+}
+
 .button:hover {
   background-color: var(--color-background);
 }
